@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design xor_based_16bit_csa -cell conv_4bit_csa -type schematic -newwindow
+window move -left 29 -top 57 -width 487 -height 362 -undock -max 
+window fit -x0 -10712 -y0 -11497 -x1 35312 -y1 11494 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
